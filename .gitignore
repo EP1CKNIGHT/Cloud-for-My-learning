@@ -433,3 +433,6 @@ FodyWeavers.xsd
 .code-runner/
 .code-runner/
 .DS_Store
+
+# VS Code workspace settings are local to each computer.
+.vscode/
