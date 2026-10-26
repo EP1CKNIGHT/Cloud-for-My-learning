@@ -20,7 +20,7 @@ bool IsPerfectNumber(int Number)
 {
     int Sum = 0;
 
-    for (int i = 1; i <= Number / 2; i++) // I have Used Number/2 rather Than Number-1 because No  proper divisor Will be found after The Half of The Number
+    for (int i = 1; i <= Number / 2; i++) // I have Used Number/2 rather Than Number-1 because No proper divisor Will be found after The Half of The Number
     {
         if (Number % i == 0)
             Sum += i;
