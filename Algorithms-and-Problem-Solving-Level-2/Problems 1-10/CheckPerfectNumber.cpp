@@ -5,11 +5,11 @@ using namespace std;
 int ReadPostiveNumber(string Massage)
 {
 
-    float Num = 0;
+    int Num = 0;
     do
     {
-        if (true)
-            cout << Massage << endl;
+
+        cout << Massage << endl;
         cin >> Num;
 
     } while (Num < 0);
@@ -36,7 +36,6 @@ void PrintResults(int Number)
 }
 int main()
 {
-    int Number;
     PrintResults(ReadPostiveNumber("Enter Positve Number To Check If The Number Is Perfect or Not"));
     return 0;
 }
