@@ -436,3 +436,4 @@ FodyWeavers.xsd
 
 # VS Code workspace settings are local to each computer.
 .vscode/
+.dSYM/
