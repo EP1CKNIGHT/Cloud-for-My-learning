@@ -25,7 +25,7 @@ void PrintLeastSignificantDigit(int Number)
         {
             LSD = Number % 10;    // Extract the last digit of Number.
             Number = Number / 10; // Remove the last digit from Number.
-            cout << LSD << endl;  // Print the extracted digit on a new line.
+            cout << LSD << endl;  // Print the extracted Least Signefecnt digit on a new line.
         }
     }
 }
