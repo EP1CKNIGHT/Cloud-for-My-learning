@@ -33,7 +33,7 @@ int SumDigits(int Number)
 void PrintSumOfDigits(int Number)
 {
     int Sum = SumDigits(Number);
-    cout << "The Sum of The Digigts of the Entered Number : " << Sum << endl;
+    cout << "The Sum of The Digits of the Entered Number : " << Sum << endl;
 }
 int main()
 {
