@@ -1,4 +1,4 @@
-// Problem 9: Count the frequency of every digit in a number.
+// Problem 8: Count the frequency of every digit in a number.
 #include <iostream>
 using namespace std;
 int ReadPostiveNumber(string Massage)
@@ -24,6 +24,7 @@ int CountDigitFrequency(short DigitToCheck, int Number)
     {
         EnterdDigit = Number % 10;
         Number /= 10;
+
         if (DigitToCheck == EnterdDigit)
             ++DigitFrequency;
     }
