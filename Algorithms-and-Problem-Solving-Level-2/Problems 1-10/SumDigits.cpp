@@ -18,7 +18,7 @@ int ReadPostiveNumber(string Massage)
 int SumDigits(int Number)
 {
 
-    int LSD = 0;
+    short LSD = 0;
     int Sum = 0;
     // Continue looping while there are digits left in Number.
     while (Number > 0)
