@@ -438,3 +438,6 @@ FodyWeavers.xsd
 .vscode/
 
 *.dSYM/
+
+#Temp Code Ruunner File 
+.tempCodeRunnerFile.cpp
