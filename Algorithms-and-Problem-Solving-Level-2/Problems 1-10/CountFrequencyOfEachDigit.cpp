@@ -19,7 +19,7 @@ int ReadPostiveNumber(string Massage)
 int CountDigitFrequency(short DigitToCheck, int Number)
 {
     int DigitFrequency = 0;
-    int EnterdDigit = 0;
+    short EnterdDigit = 0; // Same as Least Significant Digit
     while (Number > 0)
     {
         EnterdDigit = Number % 10;

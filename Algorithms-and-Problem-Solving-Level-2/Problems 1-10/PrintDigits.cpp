@@ -18,7 +18,7 @@ int ReadPostiveNumber(string Massage)
 void PrintLeastSignificantDigit(int Number)
 {
     {
-        int LSD = 0;
+        short LSD = 0;
 
         // Continue looping while there are digits left in Number.
         while (Number > 0)
