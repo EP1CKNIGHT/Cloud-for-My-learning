@@ -50,19 +50,18 @@ int CountAllDigitsOfNumber(int TotalDigits)
 
 void PrintMostSignificantDigit(int Number)
 {
+
+    short MSD = 0;
+    int TotalDigits = CountAllDigitsOfNumber(Number);
+    // Continue looping while there are digits Right in Number.
+    while (Number > 0)
     {
-        short MSD = 0;
-        int TotalDigits = CountAllDigitsOfNumber(Number);
-        // Continue looping while there are digits Right in Number.
-        while (Number > 0)
-        {
-            for (int i = 1; i < TotalDigits; i++)
-                MSD = Number % (10 * TotalDigits - i); // Extract the first digit of Number.
-            Number = Number / 10;                      // Remove the first digit from Number.
-            cout << MSD << endl;                       // Print the extracted Most Signefecnt digit on a new line.
-        }
-        cout << endl;
+        for (int i = TotalDigits; i > 0; i--)
+            MSD = Number / (pow(10, i - 1)); // Extract the first digit of Number.
+        Number = Number / 10;                // Remove the first digit from Number.
+        cout << MSD << endl;                 // Print the extracted Most Signefecnt digit from last modification on a new line.
     }
+    cout << endl;
 }
 
 int main()

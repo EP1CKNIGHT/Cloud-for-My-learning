@@ -10,6 +10,7 @@ int ReadPostiveNumber(string Massage)
 
         cout << Massage << endl;
         cin >> Num;
+        cout << endl;
 
     } while (Num < 0);
 
@@ -17,17 +18,17 @@ int ReadPostiveNumber(string Massage)
 }
 void PrintLeastSignificantDigit(int Number)
 {
-    {
-        short LSD = 0;
 
-        // Continue looping while there are digits left in Number.
-        while (Number > 0)
-        {
-            LSD = Number % 10;    // Extract the last digit of Number.
-            Number = Number / 10; // Remove the last digit from Number.
-            cout << LSD << endl;  // Print the extracted Least Signefecnt digit on a new line.
-        }
+    short LSD = 0;
+
+    // Continue looping while there are digits left in Number.
+    while (Number > 0)
+    {
+        LSD = Number % 10;    // Extract the last digit of Number.
+        Number = Number / 10; // Remove the last digit from Number.
+        cout << LSD << endl;  // Print the extracted Least Signefecnt digit on a new line.
     }
+    cout << endl;
 }
 
 int main()
